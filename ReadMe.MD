@@ -42,7 +42,7 @@ There were 299 sets of 12 features and 1 target variable.
 ![correlation](/graphics/CorrelationEjectionFractionAndSerumSodium.png)  
 ## 4. Machine Learning Models  
 We ran the following machine learning models and used metrics such as F1 Score and Balanced Accuracy to compare results. We also plotted Confuson Matrices of our classifiers.  
-![random forest](/graphics/RandomForestTuned.png)
+![random forest](/graphics/RandomForestTunedCM.png)
 ### 4.1 Machine Learning Models  
   1. Decision Tree Entropy Model
   2. Decision Tree Gini Model
