@@ -75,4 +75,9 @@ We acheived the follow results by averaging 100 interations of the Random Forest
   8. Recall Score for Positive: 0.534
   9. Recall Score for Negative: 0.872
   
-__Confusion Matrix__  
+#### 4.3.3 Confusion Matrix  
+![random forest](/graphics/RandomForestTunedCM.png)  
+  
+## 5 Conclusion  
+We have found that it is possible to predict heart failure in patients give the right information, specifically __Ejection Fraction and Serum Creatinine__.   
+We have also realized that it is important to focus on the elimination of __False Negatives__ in our modeling, following the logic that it is better to generate a false positive and conitnue follow-up with a healthy patient as opposed to genterating a false negative and not following up with an unhealthy patient.
