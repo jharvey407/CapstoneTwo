@@ -25,7 +25,7 @@ We used a dataset of 12 features that contribute to CVDs to predict mortality by
   12. follow up time in days from first appointment
   
 ### 1.2 Target Variable
-  Death Event - boolean - whether or not the patient died during the corse of the study.
+  Death Event - boolean - whether or not the patient died during the course of the study.
   
 ## 2. Data Cleaning
 Our dataset was very clean and well organized. There were no missing values and all values were either int64 or float64.  
