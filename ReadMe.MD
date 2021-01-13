@@ -31,6 +31,8 @@ We used a dataset of 12 features that contribute to CVDs to predict mortality by
 Our dataset was very clean and well organized. There were no missing values and all values were either int64 or float64.  
 There were 299 sets of 12 features and 1 target variable.  
 
+Of the 299 patients, 96 have died of heart failure.
+
 ## 3. EDA
 ## 3.1 We used a combination of violin and box plots to get an idea of the distribution of our data and to look for outliers.
 ![serum creatinine and death](/graphics/AssociationOfSerumCreatinineAndDeath.png)
