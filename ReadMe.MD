@@ -83,9 +83,11 @@ We acheived the follow results by averaging 100 interations of the Random Forest
 ## 5 Conclusion  
 We have found that it is possible to predict heart failure in patients given the right information, specifically __Ejection Fraction and Serum Creatinine__.  
 ***
+### 5.1 Correlation Between Ejection Fraction and Serum Creatinine
 ![Entropy Tree](/graphics/CorrelationEjectionFractionAndSerumCreatinine.png)  
   1. In the above graph you can see a clear negative correlation between ejection fraction and mortality, meaning that the lower the ejection fraction, the more likely the patient is to suffer heart failure.
   2. In the above graph you can see a clear positive correlation between serum creatinine and mortality, meaning that the higher the serum creatinine, the more likely the patient is to suffer heart failure.
   3. In the above graph you can see by the clustering, that death event coincides wiht low ejection fraction and low serum creatinine, suggesting that ejection fraction is a more poweful indicator of possible heart failure, but the death events that coinciede with a high serum creatine and high ejection factor suggest that high serum creatinine is also an indicator of possible heart failure.  
 ***
+### 5.2 Reduction of False Negatives
 We have also realized that it is important to focus on the elimination of __False Negatives__ in our modeling, following the logic that it is better to generate a false positive and conitnue follow-up with a healthy patient as opposed to genterating a false negative and not following up with an unhealthy patient.
