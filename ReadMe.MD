@@ -90,4 +90,7 @@ We have found that it is possible to predict heart failure in patients given the
   3. In the above graph you can see by the clustering, that death event coincides wiht low ejection fraction and low serum creatinine, suggesting that ejection fraction is a more poweful indicator of possible heart failure, but the death events that coinciede with a high serum creatine and high ejection factor suggest that high serum creatinine is also an indicator of possible heart failure.  
 ***
 ### 5.2 Reduction of False Negatives
-We have also realized that it is important to focus on the elimination of __False Negatives__ in our modeling, following the logic that it is better to generate a false positive and conitnue follow-up with a healthy patient as opposed to genterating a false negative and not following up with an unhealthy patient.
+We have also realized that it is important to focus on the elimination of __False Negatives__ in our modeling, following the logic that it is better to generate a false positive and conitnue follow-up with a healthy patient as opposed to genterating a false negative and not following up with an unhealthy patient.  
+  
+![random forest](/graphics/CMLowFN.png)  
+The above confusion matrix shows that out of 99 predictions, we predicted only 8 false negatives, showing a false negative rate of only 8%.  
