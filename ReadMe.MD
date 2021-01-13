@@ -32,13 +32,13 @@ Our dataset was very clean and well organized. There were no missing values and 
 There were 299 sets of 12 features and 1 target variable.  
 
 ## 3. EDA
-We used a combination of violin and box plots to get an idea of the distribution of our data and to look for outliers.
+## 3.1 We used a combination of violin and box plots to get an idea of the distribution of our data and to look for outliers.
 ![serum creatinine and death](/graphics/AssociationOfSerumCreatinineAndDeath.png)
-We used histograms to get an idea of the distribution of our target variable.  
+## 3.2 We used histograms to get an idea of the distribution of our target variable.  
 ![dist of age at death](/graphics/DistOfAgeAtDeath.png)  
-We used Seaborn's PaitPlot to look for correlations in our data.  
+## 3.3 We used Seaborn's PaitPlot to look for correlations in our data.  
 ![pair plot](/graphics/PairPlot.png)  
-We also plotted linear regressions of individual feature correlations so that we could understand feature interaction.  
+## 3.4 We also plotted linear regressions of individual feature correlations so that we could understand feature interaction.  
 ![correlation](/graphics/CorrelationEjectionFractionAndSerumSodium.png)  
 ## 4. Machine Learning Models  
 We ran the following machine learning models and used metrics such as F1 Score and Balanced Accuracy to compare results. We also plotted Confuson Matrices of our classifiers.  
