@@ -4,6 +4,8 @@
 Heart failure is a common event caused by cardiovascular disease. Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.  
   
 We used a dataset of 12 features that contribute to CVDs to predict mortality by heart failure.  
+  
+To view this project, click here: [GitHub](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)
 ***
 ![Entropy Tree](/graphics/EntropyTree.png)
 ***  
@@ -94,3 +96,5 @@ We have also realized that it is important to focus on the elimination of __Fals
   
 ![random forest](/graphics/CMLowFN.png)  
 The above confusion matrix shows that out of 99 predictions, we predicted only 8 false negatives, showing a false negative rate of only 8%.  
+## 6 Project Notebook  
+To view this project, click here: [GitHub](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)
