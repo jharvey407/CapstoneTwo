@@ -5,7 +5,7 @@ Heart failure is a common event caused by cardiovascular disease. Cardiovascular
   
 We used a dataset of 12 features that contribute to CVDs to predict mortality by heart failure.  
   
-To view this project, click here: [GitHub](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)
+To view this project, click here: [Heart Failure Prediction](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)
 ***
 ![Entropy Tree](/graphics/EntropyTree.png)
 ***  
@@ -96,5 +96,8 @@ We have also realized that it is important to focus on the elimination of __Fals
   
 ![random forest](/graphics/CMLowFN.png)  
 The above confusion matrix shows that out of 99 predictions, we predicted only 8 false negatives, showing a false negative rate of only 8%.  
-## 6 Project Notebook  
-To view this project, click here: [GitHub](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)
+## 6. Project Notebook  
+To view this project, click here: [Heart Failure Prediction](https://github.com/jharvey407/Heart_Failure_Prediction/blob/master/Heart%20Failure%20Profiling.ipynb)  
+## 7. Further Reading  
+The following similar study was conducted using the same data set, and reached the same conclusions regarding the prediction of heart failure.  
+[Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5#Sec6)
